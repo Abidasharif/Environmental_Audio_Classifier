@@ -1,0 +1,7 @@
+audio_env/
+data/*.npy
+data/*.csv
+raw_audio/
+temp_uploads/
+.DS_Store
+__pycache__/
