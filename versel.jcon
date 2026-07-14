@@ -1,0 +1,15 @@
+{
+    "version" : 2,
+    "builds" : [
+        {
+            "EnvironmentalAudioClassifier" : "app.py",
+            "use" : "@vercel/python"
+        }
+    ],
+    "routes" : [
+        {
+            "EnvironmentalAudioClassifier" : "/(.*)",
+            "dest" : "app.py"
+        }
+    ]
+}
