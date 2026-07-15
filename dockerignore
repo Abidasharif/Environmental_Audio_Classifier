@@ -1,0 +1,4 @@
+audio_env/
+cv_env/
+.git/
+__pycache__/
